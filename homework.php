@@ -38,6 +38,9 @@
     <meta charset="utf-8">
     <title>ວຽກບ້ານ 1</title>
     <style>
+      body {
+        background-color: rgba(0, 255, 255, 0.4);
+      }
       body, input {
         font-family: Phetsarath OT
       }
