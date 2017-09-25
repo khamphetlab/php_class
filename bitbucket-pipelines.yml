@@ -1,0 +1,8 @@
+image: php:5.6.31
+
+pipelines:
+  default:
+    - step:
+        script:
+          - php -v
+          - apt-get update && apt-get install -y git
