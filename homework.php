@@ -75,7 +75,10 @@
     </style>
   </head>
   <body>
-    <h3 style="color: red">ວຽກບ້ານ ການສ້າງແບບຟອມເພື່ອຄຳນວນເລກ</h3>
+    <h3>
+      <span style="color: red">ວຽກບ້ານ ການສ້າງແບບຟອມເພື່ອຄຳນວນເລກ</span>
+      <a href="homework_with_bootstrap.php">to Bootstrap version</a>
+    </h3>
     <form action="" method="post">
         <input type="number" name="x_value" value="<?= $x ?>" required="required">
         ບວກ(+) <input type="radio" name="operator" value="plus" required="required" <?php echo ($operator=="plus")?"checked":"" ?> >
