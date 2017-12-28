@@ -87,7 +87,7 @@
         ຫານ(/) <input type="radio" name="operator" value="divide" required="required" <?php echo ($operator=="divide")?"checked":"" ?> >
         <input type="number" name="y_value" value="<?= $y ?>" required="required">
         <input class="calculate_button" type="submit" name="calculate" value="ຄຳນວນ">
-        <input class="reset_button" type="submit" name="reset" value="ຕັ້ງຄ່າໃໝ່">
+        <input class="reset_button" onclick="window.location.reload(true)">ຕັ້ງຄ່າໃໝ່</button>
     </form>
     <br><hr><br>
     <?php

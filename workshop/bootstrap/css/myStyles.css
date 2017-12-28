@@ -1,0 +1,28 @@
+.customDiv{
+        margin: 3px;
+        min-height: 300px;
+        background-color: #f2dede;
+}
+            
+/* ສີພື້ນຫຼັງ */
+body {
+    background: url(../../img/grid_noise.png);
+    font-family: Phetsarath OT;
+}
+
+.sidebarContent {
+    margin-bottom: 10px;
+    min-height: 150px;
+    background-color: bisque;
+    text-align: center;
+    font-size: large;
+}
+
+.mainContent {
+    margin-bottom: 10px;
+    min-height: 310px;
+    background-color: bisque;
+    text-align: center;
+    font-size: large;
+}
+            
